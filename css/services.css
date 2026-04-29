@@ -23,3 +23,11 @@ header{
 body{
     background-color: pink;
 }
+.myTxt{
+    border: 5px solid darkblue;
+    font-size: 20px;
+
+}
+.myTxt::content{
+    size: 20px;
+}
