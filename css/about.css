@@ -5,7 +5,7 @@
 }
 .navLinks{
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: none;
     color: black;
 }
@@ -13,6 +13,10 @@
 .navLinksCon{
     display: flex;
     gap: 1rem;
+}
+
+.navLinks:hover{
+    color: blueviolet;
 }
 
 header{
@@ -26,20 +30,23 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
+    height: 100vh;
 }
 
-.sly{
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    flex-direction: column;
-    font-size: 22px;
-    color: black;
-    
+.heroImage{
+    max-width: 500px;
 }
+
+.heroTextSec{
+    width: 100%;
+    max-width: 450px;
+    font-size: 27px;
+}
+
 body{
     background-color: pink;
+    padding: 15px;
 }
 
 img{
@@ -50,6 +57,7 @@ img{
     justify-content: right;   
     border-radius: 10px;
     padding: 15px;
+    box-shadow: 20px 20px 20px #333;
 }
 
 .team{
@@ -57,4 +65,113 @@ img{
     justify-content: center;
     align-items: center;
     
+}
+/*    
+.niro-Txt{
+margin: 20px;
+gap: 20rem;
+} */
+
+/* .page{
+    margin: 30px auto;
+    /* display: flex; */
+    /* justify-content: space-between; */
+/* } */ */
+
+/* .age{
+    height: 100px;
+    /* width: 70px; */
+/* } */ */
+
+.mage{
+ width: 100%;
+    max-width: 500px;
+    float: left;
+    display: flex;
+    justify-content: left;   
+    border-radius: 10px;
+    padding: 15px;
+    /* box-shadow: 20px 20px 20px 20px ;    */
+}
+
+.nnn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300rem;
+}
+
+.image{
+     width: 70%;
+    max-width: 300px;
+    float: right;
+    display: flex;
+    justify-content: space-between;   
+    border-radius: 10px;
+    padding: 15px;
+}
+.ha{
+     width: 100%;
+    font-size: 30px;
+}
+
+.sad{
+     width: 100vh;
+     height: 90vh;
+    max-width: 500px;
+    float: right;
+    display: flex;
+    justify-content: right;   
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.villianSection{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 2rem;
+}
+
+.villian{
+    width: 100%;
+    max-width: 400px;
+    font-size: 30px;
+}
+
+.prev{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+ .goSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .map{
+    width: 100%;
+    height: 100vh;
+
+ }
+
+ .logo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: 500px;
+ }
+  
+ .logo{ overflow: hidden; 
+  border-right: none; 
+  white-space: nowrap; 
+  /* margin: 0 auto; */
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(30, end);
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }

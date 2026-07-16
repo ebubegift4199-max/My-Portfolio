@@ -9,15 +9,47 @@
 <body>
     
      <header>
+        <h1 class="logo">Contact me</h1>
         <nav class="navLinksCon">
             <a href="/index.html" class="navLinks">Home</a>
             <a href="about.html" class="navLinks">About</a>
             <a href="services.html" class="navLinks">Services</a>
-            <a href="projects.html" class="navLinks">Projects</a>
+            <!-- <a href="projects.html" class="navLinks">Projects</a> -->
             <a href="" class="navLinks">Contact</a>
         </nav>
     </header>
-    <p>my contacts are........</p>
+
+    <section id="contact" class="contact-section">
+        <!-- <h2>Contact Me</h2> -->
+        <p class="contact-sub">Have a question or want to work together? Drop a message!</p>
+        
+        <div class="contact-container">
+            <form id="portfolio-contact-form" novalidate>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <span class="error-msg" id="name-error"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <span class="error-msg" id="email-error"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <span class="error-msg" id="message-error"></span>
+                </div>
+                
+                <button type="submit" class="btn form-btn">Send Message</button>
+            </form>
+            <div id="form-success" class="success-box hidden">Message sent successfully!</div>
+        </div>
+    </section>
+
+   
     <script src="./js/pf.js"></script>
 </body>
 </html>

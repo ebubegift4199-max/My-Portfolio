@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }.navLinks{
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: none;
     color: black;
 }
@@ -12,6 +12,9 @@
 .navLinksCon{
     display: flex;
     gap: 1rem;
+}
+.navLinks:hover{
+    color: blueviolet;
 }
 
 header{
@@ -23,11 +26,72 @@ header{
 body{
     background-color: pink;
 }
-.myTxt{
-    border: 5px solid darkblue;
-    font-size: 20px;
-
+.play{
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+    /* border: 5px solid burlywood; */
 }
-.myTxt::content{
-    size: 20px;
+
+.serve{
+    /* display: flex; */
+    border: 5px burlywood solid;
+    background-color: burlywood;
+    width: 30%;
+     height: 40vh;
+     font-size: 23px;
+     padding: 10px;
+     margin: 10px;
+}
+
+.vices{
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+}
+
+.leash{
+     border: 5px burlywood solid;
+    background-color: burlywood;
+    width: 30%;
+     height: 35vh;
+     font-size: 23px;
+     padding: 10px;
+     margin: 10px;
+}
+
+.lash{
+     display: flex;
+    padding: 15px;
+    gap: 10px;
+}
+
+.joke{
+     border: 5px burlywood solid;
+    background-color: burlywood;
+    width: 30%;
+     height: 48vh;
+     font-size: 23px;
+     padding: 10px;
+     margin: 10px;
+}
+
+.logo{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: 500px; 
+}
+
+.logo{
+     overflow: hidden; 
+  border-right: none; 
+  white-space: nowrap; 
+  /* margin: 0 auto; */
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(30, end);
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
